@@ -355,7 +355,7 @@ function update_mint_button(qty) {
     label = `${sum_price} ${TOKEN_SYMBOL}`;
   }
   return $('#mint')
-          .text(`Mint x${qty} (${label})`)
+          .text(`Mint`) //.text(`Mint x${qty} (${label})`) --- custom (1/1) mint text
           .attr('qty', qty);
 }
 function reset_mint_button() {
