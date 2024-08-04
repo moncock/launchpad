@@ -13,7 +13,7 @@ contract MoncockOpenEdition is ERC721A, Ownable {
     uint256 public START_ID = 1;
 
     bool public mintEnabled = true;
-    string public baseURI = "https://moncock.github.io/launchpad/assets/origin.png";
+    string public baseURI = "https://moncock.github.io/launchpad/images/origin.png";
 
     // start token id
     function _startTokenId() internal view virtual override returns (uint256) {
