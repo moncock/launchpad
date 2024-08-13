@@ -9,12 +9,12 @@ contract MoncockW1 is ERC721A, Ownable {
 
     // config
     constructor(address initialOwner) ERC721A("Moncock W1", "MONCOCKW1") Ownable(initialOwner) {}
-    uint256 public MAX_SUPPLY = 1_000;                                      // **TODO** 10_000;
-    uint256 public MAX_MINT_PER_WALLET = 5;                                 // **TODO** 2;
+    uint256 public MAX_SUPPLY = 10_000;
+    uint256 public MAX_MINT_PER_WALLET = 2;
     uint256 public START_ID = 1;
 
     bool public mintEnabled = true;
-    string public baseURI = "https://moncock.github.io/sample-1000/json/";  // **TODO**
+    string public baseURI = "https://moncock.github.io/w10/json/";
 
     // start token id
     function _startTokenId() internal view virtual override returns (uint256) {
