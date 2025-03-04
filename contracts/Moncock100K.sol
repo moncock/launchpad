@@ -28,7 +28,7 @@ contract Moncock100K is ERC721A, Ownable {
         string memory jsonPreImage = string.concat(
             string.concat(
                 string.concat('{"name": "Moncock 100K #', Strings.toString(tokenId)),
-                '","description":"Let\'s celebrate the minting of 100,000 Moncock OG NFTs on Monad Testnet 🎉","image":"'
+                '","description":"Let\'s celebrate the minting of 100,000 Moncock OG NFTs on Monad Testnet \\u{1F389}","image":"'
             ),
             baseURI
         );
