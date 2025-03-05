@@ -25,19 +25,12 @@ contract Moncock100K is ERC721A, Ownable {
         baseURI = _newBaseURI;
     }
     function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
-        string memory jsonPreImage = string.concat(
-            string.concat(
-                string.concat('{"name": "Moncock 100K #', Strings.toString(tokenId)),
-                '","description":"Let\'s celebrate the minting of 100,000 Moncock OG NFTs on Monad Testnet \\u{1F389}","image":"'
-            ),
-            baseURI
+        return string.concat(
+            "data:application/json;utf8,",
+            '{"name": "Moncock 100K #', Strings.toString(tokenId),
+            '","description":"Let\'s celebrate the minting of 100,000 Moncock OG NFTs on Monad Testnet ', unicode"🎉",
+            '","image":"', baseURI, '"}'
         );
-        string memory jsonPostImage = '"}';
-        return
-            string.concat(
-                "data:application/json;utf8,",
-                string.concat(jsonPreImage, jsonPostImage)
-            );
     }
 
     // toggle sale
