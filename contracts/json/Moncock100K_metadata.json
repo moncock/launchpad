@@ -944,11 +944,11 @@
 			]
 		},
 		"contracts/Moncock100K.sol": {
-			"keccak256": "0x3b8633a835a7bb3eb6df5db8fc7054d77c22e3a33561fd79214563e4e0a9d5ca",
+			"keccak256": "0xa8700c89bcce642d0a9d97e2d653f74f1fc7d82e9c419aedfaa88d99f19b8926",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c9ee6437fac7b2f3b0ab10a5ef4351bc3582d55188d84a0b5a3db94d42e09f53",
-				"dweb:/ipfs/QmRzTtqX6L48o5tczjuk8CSX1Qn2VowPFX58xoX6mThkZA"
+				"bzz-raw://3348d59b931a22f18446f88d6a8ce829c19f939c4330e1807a394547b60e4e13",
+				"dweb:/ipfs/QmUFkAaEJosxp4pUvnwfDaFDc7JKSpNHXtp5EPvRmrJk6V"
 			]
 		},
 		"erc721a/contracts/ERC721A.sol": {
